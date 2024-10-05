@@ -21,7 +21,7 @@ public class EscribeArchivo {
             fw = new FileWriter(archivo, true);
             pw = new PrintWriter(fw);
             pw.println(est.getNombre()+ ", "+ est.getApellidos() + ", " + est.getPromedio());
-        }catch(Exception e){
+        }catch(IOException e){
             e.printStackTrace();
         }finally{
             try{

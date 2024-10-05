@@ -3,8 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/oscar/NetBeansProjects/TiendaProductos/web/index.html</file>
-            <file>file:/home/oscar/NetBeansProjects/TiendaProductos/web/WEB-INF/web.xml</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/web/style.css</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/web/META-INF/context.xml</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/web/index.jsp</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/web/muestraDatos.jsp</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/src/java/Modelo/Alumno.java</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/src/java/Controlador/muestraRegistro.java</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/web/alumnosRegistrados.jsp</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/src/java/Modelo/EscribeArchivo.java</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/web/WEB-INF/web.xml</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/src/java/Controlador/recibeDatos.java</file>
+            <file>file:/home/oscar/NetBeansProjects/TiendaProductos1/src/java/Modelo/LeeArchivo.java</file>
         </group>
     </open-files>
 </project-private>

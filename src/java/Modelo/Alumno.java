@@ -16,13 +16,11 @@ public class Alumno {
 //Constructor simple
     public Alumno() {
     }
-//Constructor paramétrico
     public Alumno(String nombre, String apellidos, double promedio) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.promedio = promedio;
     }
-    
 //Getters
     public String getNombre() {
         return nombre;
@@ -37,7 +35,7 @@ public class Alumno {
     }
     
 //Setters    
-
+    
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }

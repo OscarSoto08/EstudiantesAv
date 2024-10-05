@@ -1,14 +1,29 @@
-<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
-         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-         version="3.1">
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee           http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>MiJSP</servlet-name>
         <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>recibeDatos</servlet-name>
+        <servlet-class>Controlador.recibeDatos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>muestraRegistro</servlet-name>
+        <servlet-class>Controlador.muestraRegistro</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>MiJSP</servlet-name>
         <url-pattern>/index.jsp</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>recibeDatos</servlet-name>
+        <url-pattern>/recibeDatos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>muestraRegistro</servlet-name>
+        <url-pattern>/muestraRegistro</url-pattern>
+    </servlet-mapping>
 </web-app>
+
+
